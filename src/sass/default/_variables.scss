@@ -1,0 +1,31 @@
+/**
+*
+*    VARIABLES
+*
+*/
+
+/* ====================== */
+/*      DEVICES WIDTH     */
+/* ====================== */
+$hd                 : "and (max-width:1920px) ";    // HD - HDcomputer
+$xxxl               : "and (max-width:1620px) ";    // XXXL - xxxcomputer
+$xxl                : "and (max-width:1450px) ";    // XXL - xxcomputer
+$xl 	            : "and (max-width:1220px) ";    // XL - xcomputer
+$lg 	            : "and (max-width:1120px) ";    // LG - computer
+$md                 : "and (max-width:980px) ";     // MD - tablet
+$sm   	            : "and (max-width:736px) ";     // SM - phoneLand
+$xs 	            : "and (max-width:470px) ";     // XS - phonePort
+$xxs 	            : "and (max-width:320px) ";     // XXS - xphonePort
+
+/* Min */
+$minComputer        : "and (min-width:1120px) ";
+$minTablet          : "and (min-width:980px) ";
+
+/* Min / Max */
+$tabletMinMax       : "and (min-width:737px) and (max-width:980px) ";
+$phoneLandMinMax    : "and (min-width:471px) and (max-width:736px) ";
+$phonePortMinMax    : "and (min-width:320px) and (max-width:470px) ";
+
+/* ====================== */
+/*         COLORS         */
+/* ====================== */

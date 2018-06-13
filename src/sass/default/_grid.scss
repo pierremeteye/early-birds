@@ -1,0 +1,29 @@
+/**
+*
+*   GRID
+*
+*/    
+
+$colNumber : 12;
+$calc : 1 / $colNumber;
+
+@for $i from 1 through $colNumber{
+    .col-#{$i}{
+        width: percentage($calc * $i) !important;   
+        max-width: percentage($calc * $i) !important;   
+    }
+}
+
+
+/**
+*
+*   OFFSET
+*
+*/
+
+@for $i from 0 through $colNumber{
+    /* DEFAULT */
+    .offset-col-#{$i}{
+        margin-left: percentage($calc * $i) !important;   
+    }
+}

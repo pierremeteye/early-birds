@@ -1,0 +1,30 @@
+/**
+*
+*   APP MAIN STYLES
+*	author : Pierre METEYE
+*
+*/
+
+
+/* ====================== */
+/*          FONTS         */
+/* ====================== */
+
+
+
+/* ====================== */
+/*         IMPORT         */
+/* ====================== */
+
+// DEFAULT
+
+@import 'default/material-design-iconic-font';
+@import 'default/variables';
+@import 'default/reset';
+@import 'default/margins';
+@import 'default/fonts_size';
+@import 'default/grid';
+@import 'default/functions';
+@import 'default/defauts';
+
+@import 'Components/slider.scss';

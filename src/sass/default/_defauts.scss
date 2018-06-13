@@ -1,0 +1,219 @@
+/**
+*
+*   DEFAULT CLASSES
+*
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html * {
+	font-family: Roboto;
+	color: #5E514D;
+}
+
+.absolute {
+	position: absolute !important;
+}
+
+.relative {
+	position: relative !important;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.white {
+	color: #fff;
+}
+
+.black {
+	color: #000;
+}
+
+.yellow {
+	color: #ffc107;
+}
+
+.bgTransparent {
+	background-color: transparent;
+}
+
+.bgWhite {
+	background: #fff;
+}
+
+.block {
+	display: block;
+}
+
+.noBorder {
+	border: none;
+}
+
+.noBg {
+	background: none;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.fw-300 {
+	font-weight: 300;
+}
+
+.fw-400 {
+	font-weight: 400;
+}
+
+.fw-500 {
+	font-weight: 500;
+}
+
+.normal {
+	font-style: normal;
+}
+.f-l {
+	float: left;
+}
+
+.f-r {
+	float: right;
+}
+
+.f-n {
+	float: none;
+}
+
+.both {
+	clear: both;
+}
+
+.m-auto {
+	margin: auto;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.noDecoration {
+	text-decoration: none;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.hide {
+	display: none;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.show {
+	display: block;
+}
+
+.inline {
+	display: inline;
+}
+.boxShadow {
+	box-shadow: 0 3px 9px -1px rgba(0, 0, 0, 0.25);
+}
+
+.centerRelative {
+	position: relative;
+	top: 50%;
+	transform: translateY(50%);
+}
+
+.centerAbsolute {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.fullCentered {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.t-0 {
+	top: 0;
+}
+
+.r-0 {
+	right: 0;
+}
+
+.b-0 {
+	bottom: 0;
+}
+
+.l-0 {
+	left: 0;
+}
+
+.l-26 {
+	left: 26px;
+}
+
+.uppercaseFirstLetter:first-letter {
+	text-transform: uppercase !important;
+}
+
+.popup {
+	background: rgba(41, 41, 48, 0.36);
+	z-index: 2;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	position: fixed;
+}
+
+.noListStyle {
+	list-style: none;
+}
+
+.overflowHidden {
+	overflow: hidden;
+}
+
+.table {
+	display: table;
+}
+
+.table-cell {
+	display: table-cell;
+}
+
+.va-middle {
+	vertical-align: middle;
+}
