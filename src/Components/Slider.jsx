@@ -4,7 +4,7 @@ var slideIndex = 0;
 var classList = () => {
 	setTimeout(function() {
 		document.querySelectorAll('.zmdi-circle-o')[slideIndex].classList.add("zmdi-circle");
-	}, 100)
+	}, 0)
 }
 
 export default class Slider extends Component {
@@ -57,7 +57,7 @@ export default class Slider extends Component {
 
 			var dots = this.props.data.map((dot, i) => {
 				return(
-					<i className="zmdi zmdi-circle-o pointer" onClick={this.handleClick} key={dot.id}></i>
+					<i className="zmdi zmdi-circle-o pointer" onClick={this.dotsClick.bind(this, i)} key={dot.id}></i>
 					)
 			})
 			var notation = "<ul></ul>";
